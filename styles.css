@@ -1,0 +1,85 @@
+body {
+ 
+}
+
+h1 {
+	color: white;
+	font-size: 200px;
+	text-align: center;
+	top: 200px;
+	font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+	color: white;
+	font-size: 100px;
+	font-family: 'Amatic SC', cursive;
+
+}
+
+h3 {
+	color: white;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+
+}
+
+a:link {
+    color: #657376;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #416b76;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #416b76;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#title {
+	background-color: black;
+	filter: alpha(opacity=10);
+	top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 320px;
+    /*http://stackoverflow.com/questions/5012111/how-to-position-a-div-in-the-middle-of-the-screen-when-the-page-is-bigger-than-t*/
+}
+
+
+#home { 
+  background: url(img/background.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+.effect1{
+	height: 100px;
+	width: 500px;
+
+	font-size: 20px;
+	background-color: #000000; 
+	-webkit-box-shadow: 0 20px 16px -16px #777;
+	   -moz-box-shadow: 0 20px 16px -16px #777;
+	        box-shadow: 0 20px 16px -16px #777;
+}

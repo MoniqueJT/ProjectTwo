@@ -1,0 +1,73 @@
+body {
+ 
+}
+
+h1 {
+	color: white;
+	font-size: 55px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#navbar {
+	background-color: #416b76;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+#container {
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+
+}
+
+#navbar ul { 
+			margin: 10px; 
+			padding: 10px; 
+			list-style-type: none; 
+			text-align: center; 
+			background-color: white; 
+			font-family: 'Permanent Marker', cursive;
+			font-size: 25px;
+
+} 
+ 
+ #navbar ul li {  
+			display: inline; 
+} 
+ 
+#navbar ul li a { 
+			text-decoration: none; 
+			padding: .0em 1em; 
+			color: black ; 
+			background-color: white; 
+} 
+ 
+#navbar ul li a:hover { 
+			color: #f6e3d1; 
+			 
+} 
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    height: 400px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 300px;
+    height: 300px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
